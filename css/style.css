@@ -37,8 +37,6 @@ table {
 
 /* css för sidan börjar här */
 
-/* Layout */
-
 #container {
     max-width: 960px;
     margin: 0 auto 0 auto;
@@ -61,3 +59,8 @@ table {
     max-width: 960px;
     clear: both;
 }
+
+h1, h2, h3 {
+    color:#4D7178;
+}
+
