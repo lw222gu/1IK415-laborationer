@@ -3,48 +3,72 @@
     <head>
         <meta charset="utf-8" />
         <title>Kontakt</title>
+        <link rel="stylesheet" href="../css/style.css" />
     </head>
     
     <body>
         
-        <!-- Menu -->
-        
-        <ul>
-            <li>
-                <a href="../index.html">Start</a>
-            </li>
-            <li>
-                <a href="laborationer.html">Laborationer</a>
-            </li>
-            <li>
-                <a href="presentation.html">Presentation</a>
-            </li>
-            <li>
-                <a href="kontakt.html">Kontakt</a>
-            </li>
-        </ul>
-        
-        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" id="kontaktformular">
-            <fieldset>
-                <legend>Fråga</legend>
-                <select name="Ärende">
-                    <option value="studier" selected>Fråga om studier</option>
-                    <option value="ovrigt">Övriga frågor</option>
-                </select>
-                <label>Skriv din fråga här:</label>
-                <textarea name="dinfraga" rows="10" cols="50"></textarea>
-            </fieldset>
-            <fieldset>
-                <legend>Kontaktinformation</legend>
-                <label>Välj hur du vill bli kontaktad:</label>
-                <input type="checkbox" name="kontaktvag" value="telefon" />Telefon
-                <input type="checkbox" name="kontaktvag" value="email" />E-mail
-                <label>Ange ditt telefonnummer:</label>
-                <input type="tel" name="telefonnummer" />
-                <label>Ange din E-mail:</label>
-                <input type="email" name="emailadress" />
-            </fieldset>
-            <input type="submit" value="Skicka!" />
-        </form>
+        <div id="container">
+            
+            <!-- Header -->
+            
+            <div id="header">
+                <img id ="logotyp" src="../pics/logotyp.png" alt="Bild av logotyp" />
+            </div>
+            
+            <!-- Navigation Menu -->
+            
+            <div id="navigation">            
+                <ul>
+                    <li>
+                        <a href="../index.html">Start</a>
+                    </li>
+                    <li>
+                        <a href="laborationer.html">Laborationer</a>
+                    </li>
+                    <li>
+                        <a href="presentation.html">Presentation</a>
+                    </li>
+                    <li>
+                        <a href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Content -->
+            
+            <div id="content">
+                <h1>Kontakta Lisa</h1>
+                
+                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" id="kontaktformular">
+                    <fieldset>
+                        <legend>Fråga</legend>
+                        <select name="Ärende">
+                            <option value="studier" selected>Fråga om studier</option>
+                            <option value="ovrigt">Övriga frågor</option>
+                        </select>
+                        <label>Skriv din fråga här:</label>
+                        <textarea name="dinfraga" rows="10" cols="50"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Kontaktinformation</legend>
+                        <label>Välj hur du vill bli kontaktad:</label>
+                        <input type="checkbox" name="kontaktvag" value="telefon" />Telefon
+                        <input type="checkbox" name="kontaktvag" value="email" />E-mail
+                        <label>Ange ditt telefonnummer:</label>
+                        <input type="tel" name="telefonnummer" />
+                        <label>Ange din E-mail:</label>
+                        <input type="email" name="emailadress" />
+                    </fieldset>
+                    <input type="submit" value="Skicka!" />
+                </form>
+            </div>
+            
+            <!-- Footer -->
+            
+            <div id="footer">
+                 <p>Ansvarig för material på denna webbplats är Lisa Westlund.</p>
+            </div>
+        </div>
     </body>
 </html>

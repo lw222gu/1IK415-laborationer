@@ -4,54 +4,69 @@
     <head>
       <meta charset="utf-8" />
       <title>Lisa Westlunds laborationsuppgifter</title>
+      <link rel="stylesheet" href="css/style.css" />
     </head>
     
     <body>
        
-        <img id ="logotyp" src="pics/logotyp.png" alt="Bild av logotyp" />
+        <div id="container">
         
-        <h1>Lisa Westlunds laborationsuppgifter</h1>
-    
-        <!-- Menu -->
+            <!-- Header -->
+                
+            <div id="header">
+                <img id ="logotyp" src="pics/logotyp.png" alt="Bild av logotyp" />
+            </div>
         
-        <ul>
-            <li>
-                <a href="index.html">Start</a>
-            </li>
-            <li>
-                <a href="pages/laborationer.html">Laborationer</a>
-            </li>
-            <li>
-                <a href="pages/presentation.html">Presentation</a>
-            </li>
-            <li>
-                <a href="pages/kontakt.html">Kontakt</a>
-            </li>
-        </ul>
-        
-        <h2>Kursblogg</h2>
-        
-        <h3 id="videopost">Övar på <code>video</code>-taggen</h3>
-        <p>I uppgift 1.7 övar jag på att lägga in video.</p>
-        <video width="480" height="270" controls poster="pics/videobild.png"> 
-        <source src="videos/video.mp4" type="video/mp4" />
-        <source src="videos/video.ogg" type="video/ogg" />
-        <p>Din webbläsare stödjer inte <code>video</code>-taggen</p>
-        </video>
-        <p>(c) copyright 2008, Blender Foundation / <a href="http://www.bigbuckbunny.org">www.bigbuckbunny.org</a></p>
-        <p>Skrivet av Lisa, 2014-09-17</p>
-        
-        <h3 id="bloggbild">Använder bilder</h3>
-        <p>I uppgift 1.6 övar jag på att lägga in bilder i mina html-dokument. Nedan visas en bild skapad som en svg-fil.</p>
-        <img src="pics/kod-blogg.svg" alt="Bild av kod" />
-        <p>Skrivet av Lisa, 2014-09-09</p>
-        
-        <h3>Ett första inlägg</h3>
-        <p>På den här webbplatsen kommer jag presentera de laborationsuppgifter jag arbetar med i kursen Webbteknisk Introduktion.</p>
-        <p>För tillfället arbetar jag med att bygga upp webbplatsen.</p>
-        <p>Skrivet av Lisa, 2014-09-06</p>
-        
-        <p>Ansvarig för material på denna webbplats är Lisa Westlund.</p>
-
+            <!-- Navigation Menu -->
+            
+            <div id="navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Start</a>
+                    </li>
+                    <li>
+                        <a href="pages/laborationer.html">Laborationer</a>
+                    </li>
+                    <li>
+                        <a href="pages/presentation.html">Presentation</a>
+                    </li>
+                    <li>
+                        <a href="pages/kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Content -->
+            
+            <div id="content">
+                <h1>Lisa Westlunds laborationsuppgifter</h1>
+                
+                <h2>Kursblogg</h2>
+                
+                <h3 id="videopost">Övar på <code>video</code>-taggen</h3>
+                <p>I uppgift 1.7 övar jag på att lägga in video.</p>
+                <video width="480" height="270" controls poster="pics/videobild.png"> 
+                <source src="videos/video.mp4" type="video/mp4" />
+                <source src="videos/video.ogg" type="video/ogg" />
+                <p>Din webbläsare stödjer inte <code>video</code>-taggen</p>
+                </video>
+                <p>(c) copyright 2008, Blender Foundation / <a href="http://www.bigbuckbunny.org">www.bigbuckbunny.org</a></p>
+                <p>Skrivet av Lisa, 2014-09-17</p>
+                
+                <h3 id="bloggbild">Använder bilder</h3>
+                <p>I uppgift 1.6 övar jag på att lägga in bilder i mina html-dokument. Nedan visas en bild skapad som en svg-fil.</p>
+                <img src="pics/kod-blogg.svg" alt="Bild av kod" />
+                <p>Skrivet av Lisa, 2014-09-09</p>
+                
+                <h3>Ett första inlägg</h3>
+                <p>På den här webbplatsen kommer jag presentera de laborationsuppgifter jag arbetar med i kursen Webbteknisk Introduktion.</p>
+                <p>För tillfället arbetar jag med att bygga upp webbplatsen.</p>
+                <p>Skrivet av Lisa, 2014-09-06</p>
+            </div>
+            
+            <div id="footer">
+                <p>Ansvarig för material på denna webbplats är Lisa Westlund.</p>
+            </div>
+        </div>
     </body>
 </html>
