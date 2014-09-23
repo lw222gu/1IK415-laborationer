@@ -154,3 +154,21 @@ img {
     margin-bottom:10px;
     overflow:auto;
 }
+
+table {
+    border-width:1px;
+    border-style:solid;
+    border-color:#FF7714;
+    text-align: center;
+}
+
+th {
+    background-color:#FF7714;
+    color:#FFF;
+    padding:3px;
+}
+
+td {
+    background-color:rgb(235,235,215);
+    padding:3px;
+}
