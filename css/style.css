@@ -1,7 +1,8 @@
 /* css för sidan börjar här */
 
 body {
-    font-size: 1em;
+    font-size: 0.9em;
+    line-height:1.3em;
     font-family: "Helvetica", "Arial", serif;
 }
 
@@ -32,7 +33,7 @@ body {
 
 #footer {
     float: left;
-    width: 960px;
+    width: 100%;
     clear: both;
     background-color: #FF7714;
     overflow: auto;
@@ -51,19 +52,19 @@ h3 {
     font-size:1.2em;
 }
 
-p, li, dt, dd {
-    font-size:0.9em;
-    line-height:1.3em;
+dd {
+    font-style:italic;
+    padding-bottom:5px;
 }
 
 #footer p {
-    text-indent:10px;
     color:#FFF;
     text-align:center;    
 }
 
 a {
     text-decoration:none;
+    font-weight:bold;
 }
 
 a:link {color: #FF7717; }
@@ -75,9 +76,10 @@ a:active {color: #FF7717; }
 #navigation a {
     text-decoration: none;
     font-family: "Helvetica", "Arial", Sans-serif;
+    font-weight:normal;
     font-size: 1.2em;
     line-height:1.8em;
-    display:block
+    display:block;
 }
 
 #navigation ul {
