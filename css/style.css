@@ -3,7 +3,6 @@
 body {
     font-size: 1em;
     font-family: "Helvetica", "Arial", serif;
-    background-color:#FFFEF8;
 }
 
 #container {
@@ -32,11 +31,10 @@ body {
 h1 {
     font-size:2em;
     font-weight:bold;
-    color:#FF7714;
 }
 
 h2 {
-    font-size:1.6em;
+    font-size:1.5em;
 }
 
 h3 {
@@ -49,14 +47,28 @@ p, li, dt, dd {
     
 }
 
+a {
+    text-decoration:none;
+}
+
+a:link {color: #FF7717; }
+a:visited{color: #FF7717; }
+a:focus {color: #FF7717; }
+a:hover {color:#FFF; background-color: #FF7714;}
+a:active {color: #FF7717; }
 
 #navigation a {
     text-decoration: none;
     font-family: "Helvetica", "Arial", Sans-serif;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
-#navigation a:link {color:#FFF; background-color: #FF7714;}
+
+.author {
+    font-style:italic;
+}
+
+/* #navigation a:link {color:#FFF; background-color: #FF7714;}
 #navigation a:visited{color:#FFF; background-color: #FF7714;}
 #navigation a:focus {color:#FFF; background-color: #FF7714;}
 #navigation a:hover {color:#FFF; background-color: #FF9914;}
-#navigation a:active {color:#FFF; background-color:#FF7714;}
+#navigation a:active {color:#FFF; background-color:#FF7714;} */
