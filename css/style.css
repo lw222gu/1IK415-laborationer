@@ -76,6 +76,7 @@ dd {
     border-color:#FF7714;
     background-color:rgb(245,245,225);
     padding:10px;
+    padding-right:35px;
     margin-bottom:10px;
     overflow:auto;
 }
