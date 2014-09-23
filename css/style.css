@@ -94,7 +94,7 @@ h2.blogheader {
     padding-top:20px;
     border-width:1px;
     border-top-style:solid;
-    border-color:#FFF;
+    border-color:rgb(200,200,200);
 }
 
 /* Länkspecifik css */
