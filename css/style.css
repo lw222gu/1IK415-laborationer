@@ -61,6 +61,12 @@ dd {
 
 .author {
     font-style:italic;
+    clear:both;
+    padding-top:20px;
+    border-width:1px;
+    border-top-style:solid;
+    border-color:#FFF;
+    
 }
 
 h2.blogheader {
@@ -114,10 +120,25 @@ a:active {color: #FF7717; }
 
 #navigation a.active {color:#FFF; background-color: #FF9914;}
 
-.borderimage {
+img {
     border-width:5px;
     border-style:solid;
     border-color:rgb(235,235,215);
+}
+
+.left {
+    float:left;
+    margin-right:15px;
+    margin-bottom:15px;
+}
+
+.right {
+    float:right;
+    margin-left:15px;
+    margin-bottom:15px;
+}
+
+.presimage {
     float:right;
     margin-left:15px;
     height:200px;
@@ -131,4 +152,5 @@ a:active {color: #FF7717; }
     background-color:rgb(245,245,225);
     padding:10px;
     margin-bottom:10px;
+    overflow:auto;
 }
