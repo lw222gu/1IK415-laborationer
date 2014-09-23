@@ -6,6 +6,8 @@ body {
     font-family: "Helvetica", "Arial", serif;
 }
 
+/* Layout */
+
 #container {
     max-width: 960px;
     margin: 0 auto 0 auto;
@@ -41,6 +43,8 @@ body {
     overflow: auto;
 }
 
+/* Typografi */
+
 h1 {
     font-size:2em;
     font-weight:bold;
@@ -59,16 +63,22 @@ dd {
     padding-bottom:5px;
 }
 
-.author {
-    font-style:italic;
-    clear:both;
-    padding-top:20px;
-    border-width:1px;
-    border-top-style:solid;
-    border-color:#FFF;
-    
+#footer p {
+    color:#FFF;
+    text-align:center;    
 }
 
+/* Blogginläggsspecifik css */
+
+.blogpost {
+    border-width:1px;
+    border-bottom-style:solid;
+    border-color:#FF7714;
+    background-color:rgb(245,245,225);
+    padding:10px;
+    margin-bottom:10px;
+    overflow:auto;
+}
 h2.blogheader {
     background-image: url(pics/blog-icon.svg);
     background-size:15px;
@@ -77,10 +87,16 @@ h2.blogheader {
     text-indent:25px;
 }
 
-#footer p {
-    color:#FFF;
-    text-align:center;    
+.author {
+    font-style:italic;
+    clear:both;
+    padding-top:20px;
+    border-width:1px;
+    border-top-style:solid;
+    border-color:#FFF;
 }
+
+/* Länkspecifik css */
 
 a {
     text-decoration:none;
@@ -92,6 +108,8 @@ a:visited{color: #FF7717; }
 a:focus {color: #FF7717; }
 a:hover {color:#FFF; background-color: #FF7714;}
 a:active {color: #FF7717; }
+
+/* Meny */
 
 #navigation a {
     text-decoration: none;
@@ -120,6 +138,8 @@ a:active {color: #FF7717; }
 
 #navigation a.active {color:#FFF; background-color: #FF9914;}
 
+/* Bilder - placering och form */
+
 img {
     border-width:5px;
     border-style:solid;
@@ -145,15 +165,8 @@ img {
     width:200px;
 }
 
-.blogpost {
-    border-width:1px;
-    border-bottom-style:solid;
-    border-color:#FF7714;
-    background-color:rgb(245,245,225);
-    padding:10px;
-    margin-bottom:10px;
-    overflow:auto;
-}
+
+/* Tabell */
 
 table {
     border-width:1px;
