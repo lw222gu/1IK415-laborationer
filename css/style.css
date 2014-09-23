@@ -122,3 +122,11 @@ a:active {color: #FF7717; }
     width:200px;
 }
 
+.blogpost {
+    border-width:1px;
+    border-bottom-style:solid;
+    border-color:#FF7714;
+    background-color:rgb(245,245,225);
+    padding:10px;
+    margin-bottom:10px;
+}
