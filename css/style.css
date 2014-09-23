@@ -57,6 +57,18 @@ dd {
     padding-bottom:5px;
 }
 
+.author {
+    font-style:italic;
+}
+
+h2.blogheader {
+    background-image: url(pics/blog-icon.svg);
+    background-size:15px;
+    background-repeat:no-repeat;
+    background-position:;top left;
+    text-indent:25px;
+}
+
 #footer p {
     color:#FFF;
     text-align:center;    
@@ -90,10 +102,6 @@ a:active {color: #FF7717; }
 #navigation li {
     padding-bottom:2px;
     text-indent:10px;
-}
-
-.author {
-    font-style:italic;
 }
 
 #navigation a:link {color:#FFF; background-color: #FF7714;}
