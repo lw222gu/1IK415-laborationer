@@ -13,8 +13,10 @@ body {
 }
 
 #header {
-    padding-top:30px;
-    padding-bottom:15px;
+    background-image: url(pics/logotyp.png);
+    background-repeat:no-repeat;
+    background-position:left ;
+    height:120px;
 }
 
 #navigation {
@@ -65,7 +67,7 @@ h2.blogheader {
     background-image: url(pics/blog-icon.svg);
     background-size:15px;
     background-repeat:no-repeat;
-    background-position:;top left;
+    background-position:top left;
     text-indent:25px;
 }
 
@@ -113,9 +115,9 @@ a:active {color: #FF7717; }
 #navigation a.active {color:#FFF; background-color: #FF9914;}
 
 .borderimage {
-    border-width:2px;
+    border-width:5px;
     border-style:solid;
-    border-color:#000;
+    border-color:rgb(235,235,215);
     float:right;
     margin-left:15px;
     height:200px;
