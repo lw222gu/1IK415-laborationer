@@ -1,9 +1,7 @@
-/* css för sidan börjar här */
-
 body {
     font-size: 0.9em;
     line-height:1.3em;
-    font-family: "Helvetica", "Arial", serif;
+    font-family: "Helvetica", "Arial", sans-serif;
 }
 
 /* Layout */
