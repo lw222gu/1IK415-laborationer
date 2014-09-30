@@ -177,3 +177,53 @@ td {
     padding:2px;
     font-size:0.8em;
 }
+
+/* Formulär */
+
+fieldset {
+    border-width:1px;
+    border-color:#FF7714;
+    border-style:solid;
+    padding:20px;
+    margin-bottom:20px;
+    font-size:0.9em;
+}
+
+legend {
+    background-color:#FF7714;
+    color:#FFF;
+    padding:5px;
+}
+
+select {
+    border-width:1px;
+    border-color:rgb(235,235,215);
+    border-style:solid;
+    padding:5px;
+    margin-bottom:10px;
+}
+
+input {
+    padding:5px;
+    margin-top:5px;
+}
+
+
+.box {
+    border-width:1px;
+    border-color:rgb(235,235,215);
+    border-style:solid;
+    margin-bottom:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.button {
+    background-color:#FF7714;
+    color:#FFF;
+    padding:5px;
+    border:none;
+    border-radius:5px;
+    box-shadow:rgba(235,235,215,1) 3px 3px;
+    cursor:pointer;
+}

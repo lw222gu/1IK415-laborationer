@@ -43,24 +43,24 @@
                 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" id="kontaktformular">
                     <fieldset>
                         <legend>Fråga</legend>
-                        <select name="Ärende">
+                        <select class="select" name="Ärende">
                             <option value="studier" selected>Fråga om studier</option>
                             <option value="ovrigt">Övriga frågor</option>
-                        </select>
-                        <label>Skriv din fråga här:</label>
-                        <textarea name="dinfraga" rows="10" cols="50"></textarea>
+                        </select></br>
+                        <label>Skriv din fråga här:</label></br>
+                        <textarea class="box" name="dinfraga" rows="10" cols="50"></textarea>
                     </fieldset>
                     <fieldset>
                         <legend>Kontaktinformation</legend>
-                        <label>Välj hur du vill bli kontaktad:</label>
+                        <label>Välj hur du vill bli kontaktad:</label></br>
                         <input type="checkbox" name="kontaktvag" value="telefon" />Telefon
-                        <input type="checkbox" name="kontaktvag" value="email" />E-mail
-                        <label>Ange ditt telefonnummer:</label>
-                        <input type="tel" name="telefonnummer" />
-                        <label>Ange din E-mail:</label>
-                        <input type="email" name="emailadress" />
+                        <input type="checkbox" name="kontaktvag" value="email" />E-mail</br>
+                        <label>Ange ditt telefonnummer:</label></br>
+                        <input class="box" type="tel" name="telefonnummer" /></br>
+                        <label>Ange din E-mail:</label></br>
+                        <input class="box" type="email" name="emailadress" />
                     </fieldset>
-                    <input type="submit" value="Skicka!" />
+                    <input class="button" type="submit" value="Skicka!" />
                 </form>
             </div>
             
