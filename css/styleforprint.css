@@ -1,0 +1,182 @@
+#navigation, #footer, #header {
+    display:none;
+}
+
+body {
+    font-size: 0.9em;
+    line-height:1.3em;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* Layout */
+
+#container {
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    overflow: auto;
+}
+
+
+#content {
+    float:none;
+    max-width: 760px;
+    overflow: auto;
+    padding-bottom:30px;
+}
+
+
+/* Typografi */
+
+h1 {
+    font-size:2em;
+    font-weight:bold;
+}
+
+h2 {
+    font-size:1.5em;
+}
+
+h3 {
+    font-size:1.2em;
+}
+
+dd {
+    font-style:italic;
+    padding-bottom:5px;
+}
+
+/* Blogginläggsspecifik css */
+
+.blogpost {
+    border-width:1px;
+    border-bottom-style:solid;
+    border-color:#FF7714;
+    padding:10px;
+    padding-right:35px;
+    margin-bottom:10px;
+    overflow:auto;
+}
+h2.blogheader {
+    background-size:15px;
+    background-repeat:no-repeat;
+    background-position:top left;
+}
+
+.author {
+    font-style:italic;
+    clear:both;
+    padding-top:20px;
+    border-width:1px;
+    border-top-style:solid;
+    border-color:rgb(200,200,200);
+}
+
+/* Länkspecifik css */
+
+a {
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+
+a:link {color: #000; }
+a:visited{color: #000; }
+a:focus {color: #000; }
+a:active {color: #000; }
+a[href^="http://"]:after, a[href^="https://"]:after {content:" (" attr(href) ") ";}
+
+
+
+/* Bilder - placering och form */
+
+img {
+    border-width:5px;
+    border-style:solid;
+    border-color:grey;
+    max-width:300px;
+}
+
+.left {
+    float:left;
+    margin-right:15px;
+    margin-bottom:15px;
+}
+
+.right {
+    float:right;
+    margin-left:15px;
+    margin-bottom:15px;
+}
+
+/* Tabell */
+
+table {
+    border-width:1px;
+    border-style:solid;
+    border-color:#FF7714;
+    text-align: center;
+}
+
+th {
+    background-color:grey;
+    color:#FFF;
+    padding:5px;
+}
+
+td {
+    border-width:1px;
+    border-style:solid;
+    border-color:grey;
+    padding:2px;
+    font-size:0.8em;
+}
+
+/* Formulär */
+
+fieldset {
+    border-width:1px;
+    border-color:#000;
+    border-style:solid;
+    padding:20px;
+    margin-bottom:20px;
+    font-size:0.9em;
+}
+
+legend {
+    background-color:#000;
+    color:#FFF;
+    padding:5px;
+}
+
+select {
+    border-width:1px;
+    border-color:#000;
+    border-style:solid;
+    padding:5px;
+    margin-bottom:10px;
+}
+
+input {
+    padding:5px;
+    margin-top:5px;
+}
+
+
+.box {
+    border-width:1px;
+    border-color:grey;
+    border-style:solid;
+    margin-bottom:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.button {
+    background-color:grey;
+    color:#FFF;
+    padding:5px;
+    border:none;
+    border-radius:5px;
+    box-shadow:rgba(125,125,125,1) 3px 3px;
+    cursor:pointer;
+}
