@@ -117,7 +117,10 @@ a:active {color: #FF7717; }
     font-size: 1.2em;
     line-height:1.8em;
     display:block;
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
 }
+
 
 #navigation ul {
     list-style:none;
@@ -126,7 +129,7 @@ a:active {color: #FF7717; }
 
 #navigation li {
     padding-bottom:2px;
-    text-indent:10px;
+    text-indent:30px;
 }
 
 #navigation a:link {color:#FFF; background-color: #FF7714;}
@@ -136,6 +139,42 @@ a:active {color: #FF7717; }
 #navigation a:active {color:#FFF; background-color:#FF7714;}
 
 #navigation a.active {color:#FFF; background-color: #FF9914;}
+
+
+/* Menu sprites */
+
+#home-icon {
+    background-position:0 -48px;
+}
+
+#home-icon:hover {
+    background-position:0 0;
+}
+
+#lab-icon {
+    background-position:0 -144px ;
+}
+
+#lab-icon:hover {
+    background-position:0 -96px;
+}
+
+#pres-icon {
+    background-position:0 -240px;
+}
+
+#pres-icon:hover {
+    background-position:0 -192px;
+}
+
+#contact-icon {
+    background-position:0 -336px;
+}
+
+#contact-icon:hover {
+    background-position:0 -288px;
+}
+
 
 /* Bilder - placering och form */
 
