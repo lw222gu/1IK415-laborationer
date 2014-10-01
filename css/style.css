@@ -144,35 +144,35 @@ a:active {color: #FF7717; }
 /* Menu sprites */
 
 #home-icon {
-    background-position:0 -48px;
+    background-position:3px -45px;
 }
 
 #home-icon:hover {
-    background-position:0 0;
+    background-position:3px 3px;
 }
 
 #lab-icon {
-    background-position:0 -144px ;
+    background-position:3px -141px ;
 }
 
 #lab-icon:hover {
-    background-position:0 -96px;
+    background-position:3px -93px;
 }
 
 #pres-icon {
-    background-position:0 -240px;
+    background-position:3px -237px;
 }
 
 #pres-icon:hover {
-    background-position:0 -192px;
+    background-position:3px -189px;
 }
 
 #contact-icon {
-    background-position:0 -336px;
+    background-position:3px -333px;
 }
 
 #contact-icon:hover {
-    background-position:0 -288px;
+    background-position:3px -285px;
 }
 
 

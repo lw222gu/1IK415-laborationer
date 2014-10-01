@@ -48,18 +48,18 @@
                             <option value="studier" selected>Fråga om studier</option>
                             <option value="ovrigt">Övriga frågor</option>
                         </select></br>
-                        <label>Skriv din fråga här:</label></br>
-                        <textarea class="box" name="dinfraga" rows="10" cols="50"></textarea>
+                        <label for="dinfraga">Skriv din fråga här:</label></br>
+                        <textarea id="dinfraga" class="box" name="dinfraga" rows="10" cols="50"></textarea>
                     </fieldset>
                     <fieldset>
                         <legend>Kontaktinformation</legend>
                         <label>Välj hur du vill bli kontaktad:</label></br>
-                        <input type="checkbox" name="kontaktvag" value="telefon" />Telefon
-                        <input type="checkbox" name="kontaktvag" value="email" />E-mail</br>
-                        <label>Ange ditt telefonnummer:</label></br>
-                        <input class="box" type="tel" name="telefonnummer" /></br>
-                        <label>Ange din E-mail:</label></br>
-                        <input class="box" type="email" name="emailadress" />
+                        <label><input type="checkbox" name="kontaktvag" value="telefon" />Telefon</label>
+                        <label><input type="checkbox" name="kontaktvag" value="email" />E-mail</label></br>
+                        <label for="tel">Ange ditt telefonnummer:</label></br>
+                        <input id="tel" class="box" type="tel" name="telefonnummer" /></br>
+                        <label for="mail" >Ange din E-mail:</label></br>
+                        <input id="mail" class="box" type="email" name="emailadress" />
                     </fieldset>
                     <input class="button" type="submit" value="Skicka!" />
                 </form>
