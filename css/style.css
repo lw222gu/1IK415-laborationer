@@ -1,21 +1,13 @@
 body {
     font-size: 0.9em;
-    line-height:1.3em;
     font-family: "Helvetica", "Arial", sans-serif;
 }
 
 /* Layout */
 
-#header {
-    background-image: url(pics/logotyp.png);
-    background-repeat:no-repeat;
-    background-position:left ;
-    height:120px;
-}
+
 
 #navigation {
-    padding-right:20px;
-    padding-top:5px
 }
 
 #content {
@@ -32,21 +24,22 @@ body {
 
 /* Typografi */
 
+p {
+    line-height:1.3em;
+}
+
 h1 {
     font-size:2em;
-    line-height:2.2em:
     font-weight:bold;
 }
 
 h2 {
     font-size:1.5em;
-    line-height:1.4em;
     padding-top:0px;
 }
 
 h3 {
     font-size:1.2em;
-    line-height:1.4em;
 }
 
 dd {
