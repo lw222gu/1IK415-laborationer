@@ -6,6 +6,12 @@ body {
 
 /* Layout */
 
+#container {
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    overflow: auto;
+}
+
 #header {
     background-image: url(pics/logotyp.png);
     background-repeat:no-repeat;
@@ -14,16 +20,21 @@ body {
 }
 
 #navigation {
+    float: left;
+    width: 180px;
     padding-right:20px;
     padding-top:5px
 }
 
 #content {
+    float: left;
+    max-width: 760px;
     overflow: auto;
     padding-bottom:30px;
 }
 
 #footer {
+    float: left;
     width: 100%;
     clear: both;
     background-color: #FF7714;
@@ -34,19 +45,15 @@ body {
 
 h1 {
     font-size:2em;
-    line-height:2.2em:
     font-weight:bold;
 }
 
 h2 {
     font-size:1.5em;
-    line-height:1.4em;
-    padding-top:0px;
 }
 
 h3 {
     font-size:1.2em;
-    line-height:1.4em;
 }
 
 dd {
@@ -57,7 +64,6 @@ dd {
 #footer p {
     color:#FFF;
     text-align:center;    
-    padding:10px;
 }
 
 /* Blogginläggsspecifik css */
@@ -67,19 +73,16 @@ dd {
     border-bottom-style:solid;
     border-color:#FF7714;
     background-color:rgb(245,245,225);
-    padding-left:10px;
-    padding-right:10px;
+    padding:10px;
     padding-right:35px;
     margin-bottom:10px;
     overflow:auto;
 }
-
 h2.blogheader {
     background-image: url(pics/blog-icon.svg);
     background-size:15px;
     background-repeat:no-repeat;
     background-position:top left;
-    padding-top:0px;
     text-indent:25px;
 }
 
@@ -114,6 +117,8 @@ a:active {color: #FF7717; }
     font-size: 1.2em;
     line-height:1.8em;
     display:block;
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
 }
 
 
@@ -124,6 +129,7 @@ a:active {color: #FF7717; }
 
 #navigation li {
     padding-bottom:2px;
+    text-indent:30px;
 }
 
 #navigation a:link {color:#FFF; background-color: #FF7714;}
@@ -135,21 +141,60 @@ a:active {color: #FF7717; }
 #navigation a.active {color:#FFF; background-color: #FF9914;}
 
 
+/* Menu sprites */
+
+#home-icon {
+    background-position:3px -45px;
+}
+
+#home-icon:hover {
+    background-position:3px 3px;
+}
+
+#lab-icon {
+    background-position:3px -141px ;
+}
+
+#lab-icon:hover {
+    background-position:3px -93px;
+}
+
+#pres-icon {
+    background-position:3px -237px;
+}
+
+#pres-icon:hover {
+    background-position:3px -189px;
+}
+
+#contact-icon {
+    background-position:3px -333px;
+}
+
+#contact-icon:hover {
+    background-position:3px -285px;
+}
 
 
-/* Bilder och video - placering och form */
+/* Bilder - placering och form */
 
 img {
     border-width:5px;
     border-style:solid;
     border-color:rgb(235,235,215);
-    max-width:100%;
 }
 
-video {
-    max-width:100%;
+.left {
+    float:left;
+    margin-right:15px;
+    margin-bottom:15px;
 }
 
+.right {
+    float:right;
+    margin-left:15px;
+    margin-bottom:15px;
+}
 
 /* Tabell */
 
@@ -181,7 +226,6 @@ fieldset {
     padding:20px;
     margin-bottom:20px;
     font-size:0.9em;
-    max-width:100%;
 }
 
 legend {
@@ -203,9 +247,6 @@ input {
     margin-top:5px;
 }
 
-textarea {
-    max-width:100%;
-}
 
 .box {
     border-width:1px;

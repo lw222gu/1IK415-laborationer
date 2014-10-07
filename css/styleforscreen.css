@@ -1,0 +1,82 @@
+
+/* Layout */
+
+#container {
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    overflow: auto;
+}
+
+#navigation {
+    float: left;
+    width: 180px;
+}
+
+#content {
+    float: left;
+    max-width: 760px;
+}
+
+#footer {
+    float: left;
+}
+
+/* Bilder - placering och form */
+
+.left {
+    float:left;
+    margin-right:15px;
+    margin-bottom:15px;
+}
+
+.right {
+    float:right;
+    margin-left:15px;
+    margin-bottom:15px;
+}
+
+
+/* Navigation */
+
+#navigation li {
+    text-indent:30px;
+}
+
+#navigation a {
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+}
+
+/* Menu sprites */
+
+#home-icon {
+    background-position:3px -45px;
+}
+
+#home-icon:hover {
+    background-position:3px 3px;
+}
+
+#lab-icon {
+    background-position:3px -141px ;
+}
+
+#lab-icon:hover {
+    background-position:3px -93px;
+}
+
+#pres-icon {
+    background-position:3px -237px;
+}
+
+#pres-icon:hover {
+    background-position:3px -189px;
+}
+
+#contact-icon {
+    background-position:3px -333px;
+}
+
+#contact-icon:hover {
+    background-position:3px -285px;
+}
