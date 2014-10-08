@@ -5,11 +5,6 @@ body {
 
 /* Layout */
 
-
-
-#navigation {
-}
-
 #content {
     overflow: auto;
     padding-bottom:30px;
