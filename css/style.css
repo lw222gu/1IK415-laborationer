@@ -1,3 +1,7 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section { 
+    display: block; 
+}
+
 body {
     font-size: 0.9em;
     font-family: "Helvetica", "Arial", sans-serif;
@@ -5,12 +9,17 @@ body {
 
 /* Layout */
 
-#content {
+#top {
+    background-repeat:no-repeat;
+    background-position:left;
+}
+
+main {
     overflow: auto;
     padding-bottom:30px;
 }
 
-#footer {
+#mainfooter {
     width: 100%;
     clear: both;
     background-color: #FF7714;
@@ -42,7 +51,7 @@ dd {
     padding-bottom:5px;
 }
 
-#footer p {
+#mainfooter p {
     color:#FFF;
     text-align:center;    
     padding:10px;
@@ -95,7 +104,7 @@ a:active {color: #FF7717; }
 
 /* Meny */
 
-#navigation a {
+#menu a {
     text-decoration: none;
     font-family: "Helvetica", "Arial", Sans-serif;
     font-weight:normal;
@@ -105,22 +114,22 @@ a:active {color: #FF7717; }
 }
 
 
-#navigation ul {
+#menu ul {
     list-style:none;
     padding-left:0px;
 }
 
-#navigation li {
+#menu li {
     padding-bottom:2px;
 }
 
-#navigation a:link {color:#FFF; background-color: #FF7714;}
-#navigation a:visited {color:#FFF; background-color: #FF7714;}
-#navigation a:focus {color:#FFF; background-color: #FF7714;}
-#navigation a:hover {color:#FFF; background-color: #FF9914; text-decoration:underline;}
-#navigation a:active {color:#FFF; background-color:#FF7714;}
+#menu a:link {color:#FFF; background-color: #FF7714;}
+#menu a:visited {color:#FFF; background-color: #FF7714;}
+#menu a:focus {color:#FFF; background-color: #FF7714;}
+#menu a:hover {color:#FFF; background-color: #FF9914; text-decoration:underline;}
+#menu a:active {color:#FFF; background-color:#FF7714;}
 
-#navigation a.active {color:#FFF; background-color: #FF9914;}
+#menu a.active {color:#FFF; background-color: #FF9914;}
 
 
 

@@ -1,19 +1,17 @@
-#header {
+#top {
     background-image: url(pics/logotyp1rad.svg);
-    background-repeat:no-repeat;
-    background-position:left;
     height:50px;
 }
 
-#navigation a {
+#menu a {
     font-size:1.5em;
     text-indent:10px;
     padding:5px;
 }
 
-#navigation li {
+#menu li {
     padding-bottom:5px;
 }
 
-#navigation a:hover {text-decoration:none;}
+#menu a:hover {text-decoration:none;}
 

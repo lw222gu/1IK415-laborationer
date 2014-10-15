@@ -1,4 +1,4 @@
-#navigation, #footer, #header {
+#menu, #mainfooter, #top {
     display:none;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 
-#content {
+main {
     float:none;
     max-width: 760px;
     overflow: auto;
