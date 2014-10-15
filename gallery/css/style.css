@@ -24,7 +24,7 @@ a {
     border-right-width:10px;
     border-bottom-width:20px;
     background-color:#FFF;
-    box-shadow:#333 5px 5px 7px;
+    box-shadow:rgb(155,155,155) 5px 5px 7px;
     text-decoration:none;
     text-align:center;
     color:#000;
@@ -52,22 +52,11 @@ a:after {
 a: link {
     
 }
-.images a:focus {    
+.images a:focus, .images a:hover {    
+    -webkit-transition: 2s;
     -webkit-transform: scale(1.5);
     z-index:10;
+    box-shadow:rgba(155,155,155,0.5) 5px 5px 20px;
+
 
 }
-.images a:hover {
-    -webkit-transform: scale(1.5);
-    position:relative;
-    z-index:10;
-}
-
-/*
-a:active {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-}
-*/
-
-
