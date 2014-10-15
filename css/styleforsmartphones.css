@@ -15,3 +15,7 @@
 
 #menu a:hover {text-decoration:none;}
 
+textarea {
+    width:250px;
+    height:150px;
+}
