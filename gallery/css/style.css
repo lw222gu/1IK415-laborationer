@@ -35,15 +35,18 @@ a {
 }
 
 
-.images a:nth-child(3n) {
+.images a:nth-child(3n+1) {
     -webkit-transform: rotate(-7deg);
     z-index:5;
 }
 
 .images a:nth-child(5n) {
-    -webkit-transform: rotate(7deg);
+    -webkit-transform: rotate(9deg);
 }
 
+.images a:nth-child(even) {
+    -webkit-transform: rotate(-2deg);
+}
 
 a:after {
     content:attr(title);
@@ -57,6 +60,4 @@ a: link {
     -webkit-transform: scale(1.5);
     z-index:10;
     box-shadow:rgba(155,155,155,0.5) 5px 5px 20px;
-
-
 }
